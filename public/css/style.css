@@ -1,5 +1,86 @@
 /* General */
+html {
+    background-color: #D3D3D3;
+}
+
+body {
+    font-family: sans-serif, serif;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 header {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #000000;
+}
+
+/* About Us */
+#aboutus {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #000000;
+}
+
+#staff {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-img-left {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.profile-img-right {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.bio {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40pt;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30pt;
+}
+
+h3 {
+    font-size: 20pt;
 }
