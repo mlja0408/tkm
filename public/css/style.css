@@ -30,7 +30,25 @@ a:visited {
     color: #000000;
 }
 
-/* About Us */
+/* index.html */
+#welcome {
+    margin: auto;
+    width: 80%;
+}
+
+/* resources.html */
+#resources {
+    margin: auto;
+    width: 80%;
+}
+
+/* contact.html */
+#contactInfo {
+    margin: auto;
+    width: 80%;
+}
+
+/* about.html */
 #aboutus {
     padding-top: 50px;
     padding-bottom: 50px;
